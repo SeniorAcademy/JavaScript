@@ -1,4 +1,4 @@
-// Ders 3: Değişken Tipleri
+// Lesson 3: Variable Types
 
 // Primitive Types
 
