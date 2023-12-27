@@ -1,4 +1,4 @@
-// Değişkenler
+// Variables
 
 // var age;
 // console.log(age) // undefined
@@ -22,21 +22,21 @@
 // var fullname = 'Huseyn';
 // console.log(fullname)
 
-//  Değişken Tanımlama Kuralları
-//  Değişken isimleri rakam ile başlayamaz.
+// Variable Definition Rules
+// Variable names cannot start with numbers.
 
 //  var 1yas; => hatalı
 //  var yas1; => geçerli
 //  var _yas; => geçerli
 
-//   Komut isimleriyle tanımlama yapılamaz. Örneğin if kelimesi dğeişken ismi olamaz.
-//   Büyük küçük harf duyarlılığı vardır.
+// Definitions cannot be made with command names. For example, the word if cannot be a variable name.
+// It is case sensitive.
 
 // var firstName = 'Huseyn';
 // var FirstName = 'Elvin';
 
-//     Farklı değişken isimleridir.
-//   Değişken isimlerinde türkçe karakter kullanmamalıyız.
+// These are different variable names.
+// We must use Azerbaijan characters in variable names.
 
 
 // VAR YAZILANI IF-DEN COLDE CAGIRMAQ VE DEYISMEK OLACAQ
