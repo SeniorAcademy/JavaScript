@@ -54,12 +54,3 @@ console.log(val)
 
 
 //Task
-var salary = 1000;
-var shiftSalary = 22.5;
-var shiftHours = 16;  //elave saat
-
-var totalSalary = salary + (shiftSalary*shiftHours);
-console.log(totalSalary)
-
-var resultSalary = totalSalary - totalSalary*0.18
-console.log(Math.ceil(resultSalary.toFixed(2)));
