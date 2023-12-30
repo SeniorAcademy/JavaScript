@@ -23,15 +23,15 @@
 var start = new Date('1/1/2020');
 var end = new Date('1/1/2023');
 
-var milisecond = end - start;
-var saniye = milisecond / 1000;
-var dakika = saniye / 60;
-var saat = dakika / 60;
-var gun = saat / 24;
+var millisecond = end - start;
+var seconds = millisecond / 1000;
+var minutes = seconds / 60;
+var hour = minutes / 60;
+var day = hour / 24;
 
-console.log('milisecond :'+ milisecond)
-console.log('saniye : '+ saniye);
-console.log('dakika :'+ dakika);
-console.log('saat :' + saat);
-console.log('gun : '+ gun);
+console.log('milisecond :'+ millisecond)
+console.log('seconds : '+ seconds);
+console.log('minutes :'+ minutes);
+console.log('time :' + time);
+console.log('day : '+ day);
 
