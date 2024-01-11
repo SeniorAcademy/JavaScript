@@ -151,62 +151,7 @@
 
 // console.log(result);
 
-// let variable = "Hello";
-// let result;
 
-// switch (typeof variable) {
-//     case "string":
-//         result = variable + " World!";
-//         break;
-//     case "number":
-//         result = variable ** 2;
-//         break;
-//     case "boolean":
-//         result = !variable;
-//         break;
-//     case "object":
-//         if (Array.isArray(variable)) {
-//             result = variable.reverse();
-//         } else {
-//             result = "Unsupported type";
-//         }
-//         break;
-//     default:
-//         result = "Unsupported type";
-// }
-
-// console.log(result);
-
-const number = 7;
-
-// Using if-else statements
-let resultWithIfElse;
-
-if (number > 0) {
-    resultWithIfElse = "Positive";
-} else if (number < 0) {
-    resultWithIfElse = "Negative";
-} else {
-    resultWithIfElse = "Zero";
-}
-
-console.log(`Using if-else: ${resultWithIfElse}`);
-
-// Using switch statement
-let resultWithSwitch;
-
-switch (Math.sign(number)) {
-    case 1:
-        resultWithSwitch = "Positive";
-        break;
-    case -1:
-        resultWithSwitch = "Negative";
-        break;
-    default:
-        resultWithSwitch = "Zero";
-}
-
-console.log(`Using switch: ${resultWithSwitch}`);
 
 
 
