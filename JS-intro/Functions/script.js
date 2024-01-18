@@ -38,24 +38,7 @@
 // console.log(ageRasim);
 // console.log(ageEmin);
 
-// // TASK
-// function EmekligeKacYilKaldi(dogumYili,isim){
 
-//     let yas = yasHesapla(dogumYili);
-//     let emeklilik = 65 - yas;
-
-//     if(emeklilik > 0){
-//         // > 0
-//         console.log(`${isim} emekli olmana ${emeklilik} yıl kaldı`);
-//     }
-//     else{
-//         console.log('Zaten emekli oldunuz');
-//     }
-// }
-
-// EmekligeKacYilKaldi(1955,'Ada');
-// EmekligeKacYilKaldi(2010,'Yiğit');
-// EmekligeKacYilKaldi(1990,'Çınar');
 
 function CalculateAge(birthYear) {
   let currentYear = new Date().getFullYear();
