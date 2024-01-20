@@ -218,7 +218,12 @@
         //     }
         //  }
         //   goods2.call();
+        //1. goods2 obyekti, category və names xüsusiyyətlərinə sahibdir. category daxilində "phone" dəyəri, names daxilində isə bir array mövcuddur.
+        //2. call funksiyası, goods2 obyektinin bir metodudur. Bu metodun əsas məqsədi, names arrayindəki hər bir elementi və category dəyərini konsola yazdırmaqdır.
+        //3. this.names.map((name) => { ... }); ifadəsi ilə names arrayi üzərində bir map əməliyyatı icra olunur. Arrow funksiyası vasitəsilə bir callback funksiyon təyin olunur.
+        //4. Arrow funksiyası daxilindəki console.log(${this.category} ${name}); ifadəsi ilə hər bir elementin əvvəlinə category dəyəri əlavə olunaraq konsola yazdırılır.
 
+        //5. map funksiyası, orijinal arrayi dəyişdirmir və hər bir element üzərində müəyyən əməliyyatı icra edərək yeni bir array yaradır. Bu halda, call funksiyası əsas goods2 obyektini dəyişdirmir, sadəcə konsola yazdırır.
         // this function icinde isdeyir
 
         ////////////////////////////////////////////////////////////////////////////////////////////
