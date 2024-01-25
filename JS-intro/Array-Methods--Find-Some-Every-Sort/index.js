@@ -121,17 +121,4 @@ console.log(val2);
 
 // //Task
 // let years = [2017, 1970, 1990, 1998, 2012];
-// function over18(year) {
-//   let age = 2023 - year;
-//   return age >= 18;
-// }
-// let values = years.filter(over18);
-// console.log(values);
 
-// const over18 = year => {
-//   let age = 2023 - year;
-//   return age >= 18;
-// };
-
-// let values = years.filter(over18);
-// console.log(values);
