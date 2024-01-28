@@ -16,7 +16,7 @@
         //         const numbers = [1, 2, 3, 4, 5];
 
         // const result = numbers.reduce((accumulator, currentValue, currentIndex, array) => {
-        //   console.log(`Step ${currentIndex + 1}:`);
+        //   console.log(`Step ${currentIndex + 1}:`);     
         //   console.log(`  accumulator: ${accumulator}`);
         //   console.log(`  currentValue: ${currentValue}`);
         //   console.log(`  currentIndex: ${currentIndex}`);
@@ -26,6 +26,10 @@
         // }, 0);
 
         // console.log(`Final Result: ${result}`);
+
+        //`Step ${currentIndex + 1}:` - JavaScript-də array indeksləri 0-dan başlayır. Amma insanların saymağı 1-dən başlamağı daha sadədir. Bu səbəbdən, currentIndex + 1 ifadəsi ilə iterasiyanın necenci adımda olduğumuzu əks etdiririk.
+        // Accumulator və currentValue-nin cəmlənmiş (toplamış) dəyəri accumulator-ə qaytarılır.
+        
 
         // array.reduce(callback, initialValue)
 
