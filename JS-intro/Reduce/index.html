@@ -163,6 +163,51 @@
         //     },
         // ]
 
+        //Part - 1
+        // const groupBy = (array, property) => {
+        //     return array.reduce((arr , product) => {
+        //         let key = product[property] // brandi reduce-nin propertysine beraber edirik
+        //         if (!arr[key]) {  // eger daxil etdiyim brand array-in icinde yoxdusa yarat ve at bos arrayin icine 
+        //             arr[key] = []
+        //         }
+        //         else {
+        //             arr[key].push(product) // brand varsa bu defe ise teze arrayin icine push edecek
+        //         }
+        //         return arr
+        //     }, {})
+
+        // }
+        // console.log(groupBy(products, 'brand'));
+        //Part - 2
+        
+        //         const groupBy = (array, property) => {
+        //   return array.reduce((arr, product) => {
+        //     let key = product[property];
+        //     if (!arr[key]) {
+        //       arr[key] = [];
+        //     }
+        //     arr[key].push(product);
+        //     return arr;
+        //   }, Object.fromEntries(array.map(product => [product[property], []])));
+    // };
+
+        // console.log(groupBy(products, 'brand'));
+
+        //Part - 3
+        // const groupBy = (array, property) => 
+        //   array.reduce((acc, product) => 
+        //     ((acc[product[property]] = acc[product[property]] || []).push(product), acc), {});
+
+        // console.log(groupBy(products, 'brand'));
+
+        //Part - 4
+        const groupBy = (array, property) => 
+          array.reduce((acc, product) => {
+          let key = product[property];
+            (acc[key] = acc[key] ?? []).push(product);
+            return acc;
+          }, {});
+
         
     </script>
 </body>
