@@ -15,6 +15,23 @@
     delay (gecikmə:) Hər bir geri çağırış funksiyası çağırışı arasında vaxt intervalı (millisaniyələrlə).
     param1, param2, ...: geri çağırış funksiyasına ötürüləcək əlavə parametrlər. -->
 
+    <!-- clearInterval() və setTimeout() JavaScript-də zamanlama əməliyyatları üçün istifadə olunan iki vacib funksiyadır.
+    
+        clearInterval(intervalID):
+        Məqsəd: Planlaşdırılmış təkrar əməliyyatları dayandırmaq üçün istifadə olunur. Bu funksiya setInterval() tərəfindən qaytarılan identifikatoru götürür və əlaqəli vaxtı dayandırır.
+        Example:
+        const intervalID = setInterval(myFunction, 1000);
+        // ... after a while ...
+        clearInterval(intervalID); //stops the operation started by setInterval
+
+
+        setTimeout (callback, delay):
+
+        Məqsəd: Müəyyən bir müddətdən sonra əməliyyatı yerinə yetirmək üçün istifadə olunur. Göstərilən vaxt (millisaniyələrlə) keçdikdən sonra verilmiş funksiyanı bir dəfə çağırır.
+        setInterval() müəyyən fasilələrlə təkrarlanan əməliyyatlar üçün istifadə edildiyi halda, setTimeout() müəyyən müddətdən sonra əməliyyatı yerinə yetirmək üçün istifadə olunur. 
+        clearInterval() setInterval() tərəfindən başladılan təkrarlanan əməliyyatları dayandırmaq üçün istifadə olunur.
+    -->
+
 
     <script>
         let counter = 0;
